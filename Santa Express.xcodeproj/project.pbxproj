@@ -14,6 +14,7 @@
 		EE5F6EE31A3421BF00F2571C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5F6EE21A3421BF00F2571C /* Images.xcassets */; };
 		EE5F6EE61A3421BF00F2571C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5F6EE41A3421BF00F2571C /* LaunchScreen.xib */; };
 		EE5F6EF21A3421C000F2571C /* Santa_ExpressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5F6EF11A3421C000F2571C /* Santa_ExpressTests.m */; };
+		EE5F6EFD1A34260A00F2571C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F6EFC1A34260A00F2571C /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EE5F6EEB1A3421C000F2571C /* Santa ExpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Santa ExpressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5F6EF01A3421C000F2571C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5F6EF11A3421C000F2571C /* Santa_ExpressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Santa_ExpressTests.m; sourceTree = "<group>"; };
+		EE5F6EFC1A34260A00F2571C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5F6EFD1A34260A00F2571C /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 				EE5F6ED41A3421BF00F2571C /* Santa Express */,
 				EE5F6EEE1A3421C000F2571C /* Santa ExpressTests */,
 				EE5F6ED31A3421BF00F2571C /* Products */,
+				EE5F6EFB1A3425BA00F2571C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +121,14 @@
 				EE5F6EF01A3421C000F2571C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE5F6EFB1A3425BA00F2571C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F6EFC1A34260A00F2571C /* FacebookSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +355,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/citlalig/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = "Santa Express/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +369,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/citlalig/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = "Santa Express/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -15,7 +15,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0z</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -29,6 +29,19 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+	</array>
+	<key>FacebookAppID</key>
+	<string>761372827268358</string>
+	<key>FacebookDisplayName</key>
+	<string>Santa Express</string>
+	<key>URL types</key>
+	<array>
+		<dict>
+			<key>URL Schemes</key>
+			<array>
+				<string>fb761372827268358</string>
+			</array>
+		</dict>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
